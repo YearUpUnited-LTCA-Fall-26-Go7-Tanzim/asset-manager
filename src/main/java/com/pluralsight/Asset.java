@@ -37,4 +37,8 @@ public class Asset {
     public void setOriginalCost(BigDecimal originalCost) {
         this.originalCost = originalCost;
     }
+
+    public BigDecimal getValue() {
+        return originalCost;
+    }
 }
